@@ -254,7 +254,7 @@ button {
     outline-offset: 2px;
   }
 
-  &:active { 
+  &:active {
     transform: scale(0.90)
   }
 
@@ -315,16 +315,16 @@ main > section:nth-child(2) footer {
   background-color: var(--card-bg);
   padding: 2rem;
   margin-bottom: 16px;
-  border-radius: 0.5rem;                   
-  box-shadow: 0px 1px 3px 0 var(--shadow); 
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 3px 0 var(--shadow);
 
   svg {
-    color: var(--primary-light);          
-    background: rgba(0, 153, 255, 0.3);  
-    border-radius: 9999px;               
-    width: 64px;                         
-    height: 64px;                        
-    padding: 16px;                       
+    color: var(--primary-light);
+    background: rgba(0, 153, 255, 0.3);
+    border-radius: 9999px;
+    width: 64px;
+    height: 64px;
+    padding: 16px;
   }
 
   h3 {
@@ -452,7 +452,7 @@ article {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  margin-block: 2rem;
+  margin-block: 2rem; /* margen igual */
 
   a {
     display: flex;
